@@ -35,3 +35,28 @@ print(l)
 
 
 #Nested list
+
+l=([1,2,[3.1,3.2,3.3]],[4.1,4.2,4.3],[5.1,5.2])
+
+print(l[0][2])
+print(l[0][2][2])
+
+
+print ("*"*70)
+#mutable , Imutable
+
+t=(1,2,3,4,5,6,7,8,9,[10.2,10.2,10.3])
+print(t)
+print(t[6])
+print(t.index(9))
+
+print("*"*90)
+
+#imutable , no indexing
+
+s={1,2,2,2,2,7,7,7,7,9,3,4,4,4,4,4,8,5}
+print(s)
+s2={9,6,3,4,5}
+print(s2.issubset(s))
+print(s2.intersection(s))
+
